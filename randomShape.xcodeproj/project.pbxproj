@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED46A3C5155DB6720022BA63 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED46A3C4155DB6720022BA63 /* AVFoundation.framework */; };
+		ED46A3C7155DB6720022BA63 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED46A3C6155DB6720022BA63 /* CoreFoundation.framework */; };
+		ED46A3C9155DB6720022BA63 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED46A3C8155DB6720022BA63 /* CoreGraphics.framework */; };
+		ED46A3CB155DB6720022BA63 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED46A3CA155DB6720022BA63 /* CoreImage.framework */; };
+		ED46A3CD155DB6720022BA63 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED46A3CC155DB6720022BA63 /* CoreMedia.framework */; };
+		ED46A3CF155DB6720022BA63 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED46A3CE155DB6720022BA63 /* CoreText.framework */; };
+		ED46A3D1155DB6720022BA63 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED46A3D0155DB6720022BA63 /* Foundation.framework */; };
+		ED46A3D3155DB6720022BA63 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED46A3D2155DB6720022BA63 /* OpenGLES.framework */; };
+		ED46A3D5155DB6720022BA63 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED46A3D4155DB6720022BA63 /* QuartzCore.framework */; };
+		ED46A3D7155DB6720022BA63 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED46A3D6155DB6720022BA63 /* UIKit.framework */; };
+		ED46A3DD155DB6720022BA63 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ED46A3DB155DB6720022BA63 /* InfoPlist.strings */; };
+		ED46A3DF155DB6730022BA63 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED46A3DE155DB6730022BA63 /* main.m */; };
+		ED46A3E4155DB6730022BA63 /* C4AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED46A3E3155DB6730022BA63 /* C4AppDelegate.m */; };
+		ED46A3E6155DB6730022BA63 /* C4WorkSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = ED46A3E5155DB6730022BA63 /* C4WorkSpace.m */; };
+		ED46A403155DB6730022BA63 /* libC4.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ED46A402155DB6730022BA63 /* libC4.a */; };
+		ED46A40F155DB6740022BA63 /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = ED46A40E155DB6740022BA63 /* iTunesArtwork.png */; };
+		ED46A412155DB6740022BA63 /* C4Canvas.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED46A410155DB6740022BA63 /* C4Canvas.xib */; };
+		ED46A414155DB6740022BA63 /* C4LogoiPad-01.png in Resources */ = {isa = PBXBuildFile; fileRef = ED46A413155DB6740022BA63 /* C4LogoiPad-01.png */; };
+		ED46A416155DB6740022BA63 /* C4LogoiPad-01@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ED46A415155DB6740022BA63 /* C4LogoiPad-01@2x.png */; };
+		ED46A418155DB6740022BA63 /* C4LogoiPad-02.png in Resources */ = {isa = PBXBuildFile; fileRef = ED46A417155DB6740022BA63 /* C4LogoiPad-02.png */; };
+		ED46A41A155DB6740022BA63 /* C4LogoiPad-03.png in Resources */ = {isa = PBXBuildFile; fileRef = ED46A419155DB6740022BA63 /* C4LogoiPad-03.png */; };
+		ED46A41C155DB6740022BA63 /* C4LogoiPad-04.png in Resources */ = {isa = PBXBuildFile; fileRef = ED46A41B155DB6740022BA63 /* C4LogoiPad-04.png */; };
+		ED46A41E155DB6740022BA63 /* C4LogoiPad-05.png in Resources */ = {isa = PBXBuildFile; fileRef = ED46A41D155DB6740022BA63 /* C4LogoiPad-05.png */; };
+		ED46A420155DB6740022BA63 /* C4LogoiPad-06.png in Resources */ = {isa = PBXBuildFile; fileRef = ED46A41F155DB6740022BA63 /* C4LogoiPad-06.png */; };
+		ED46A422155DB6740022BA63 /* C4LogoiPad-07.png in Resources */ = {isa = PBXBuildFile; fileRef = ED46A421155DB6740022BA63 /* C4LogoiPad-07.png */; };
+		ED46A424155DB6740022BA63 /* C4LogoiPad-08.png in Resources */ = {isa = PBXBuildFile; fileRef = ED46A423155DB6740022BA63 /* C4LogoiPad-08.png */; };
+		ED46A426155DB6740022BA63 /* C4LogoiPad-Landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = ED46A425155DB6740022BA63 /* C4LogoiPad-Landscape.png */; };
+		ED46A428155DB6740022BA63 /* C4LogoiPad-Portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = ED46A427155DB6740022BA63 /* C4LogoiPad-Portrait.png */; };
+		ED46A42A155DB6740022BA63 /* C4LogoiPad-Landscape@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ED46A429155DB6740022BA63 /* C4LogoiPad-Landscape@2x.png */; };
+		ED46A42C155DB6740022BA63 /* C4LogoiPad-Portrait@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ED46A42B155DB6740022BA63 /* C4LogoiPad-Portrait@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ED46A3C0155DB6720022BA63 /* randomShape.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = randomShape.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED46A3C4155DB6720022BA63 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		ED46A3C6155DB6720022BA63 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		ED46A3C8155DB6720022BA63 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ED46A3CA155DB6720022BA63 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		ED46A3CC155DB6720022BA63 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		ED46A3CE155DB6720022BA63 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		ED46A3D0155DB6720022BA63 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ED46A3D2155DB6720022BA63 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		ED46A3D4155DB6720022BA63 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		ED46A3D6155DB6720022BA63 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ED46A3DA155DB6720022BA63 /* randomShape-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "randomShape-Info.plist"; sourceTree = "<group>"; };
+		ED46A3DC155DB6720022BA63 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ED46A3DE155DB6730022BA63 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ED46A3E0155DB6730022BA63 /* randomShape-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "randomShape-Prefix.pch"; sourceTree = "<group>"; };
+		ED46A3E1155DB6730022BA63 /* C4WorkSpace.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = C4WorkSpace.h; sourceTree = "<group>"; };
+		ED46A3E2155DB6730022BA63 /* C4AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = C4AppDelegate.h; sourceTree = "<group>"; };
+		ED46A3E3155DB6730022BA63 /* C4AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = C4AppDelegate.m; sourceTree = "<group>"; };
+		ED46A3E5155DB6730022BA63 /* C4WorkSpace.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = C4WorkSpace.m; sourceTree = "<group>"; };
+		ED46A3E8155DB6730022BA63 /* C4CanvasController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4CanvasController.h; path = Headers/C4CanvasController.h; sourceTree = "<group>"; };
+		ED46A3E9155DB6730022BA63 /* C4Control.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4Control.h; path = Headers/C4Control.h; sourceTree = "<group>"; };
+		ED46A3EA155DB6730022BA63 /* C4Defines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4Defines.h; path = Headers/C4Defines.h; sourceTree = "<group>"; };
+		ED46A3EB155DB6730022BA63 /* C4EAGLES1Renderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4EAGLES1Renderer.h; path = Headers/C4EAGLES1Renderer.h; sourceTree = "<group>"; };
+		ED46A3EC155DB6730022BA63 /* C4EAGLESRenderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4EAGLESRenderer.h; path = Headers/C4EAGLESRenderer.h; sourceTree = "<group>"; };
+		ED46A3ED155DB6730022BA63 /* C4EAGLLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4EAGLLayer.h; path = Headers/C4EAGLLayer.h; sourceTree = "<group>"; };
+		ED46A3EE155DB6730022BA63 /* C4Font.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4Font.h; path = Headers/C4Font.h; sourceTree = "<group>"; };
+		ED46A3EF155DB6730022BA63 /* C4Foundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4Foundation.h; path = Headers/C4Foundation.h; sourceTree = "<group>"; };
+		ED46A3F0155DB6730022BA63 /* C4Gesture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4Gesture.h; path = Headers/C4Gesture.h; sourceTree = "<group>"; };
+		ED46A3F1155DB6730022BA63 /* C4GL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4GL.h; path = Headers/C4GL.h; sourceTree = "<group>"; };
+		ED46A3F2155DB6730022BA63 /* C4GL1Renderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4GL1Renderer.h; path = Headers/C4GL1Renderer.h; sourceTree = "<group>"; };
+		ED46A3F3155DB6730022BA63 /* C4Image.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4Image.h; path = Headers/C4Image.h; sourceTree = "<group>"; };
+		ED46A3F4155DB6730022BA63 /* C4Label.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4Label.h; path = Headers/C4Label.h; sourceTree = "<group>"; };
+		ED46A3F5155DB6730022BA63 /* C4Layer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4Layer.h; path = Headers/C4Layer.h; sourceTree = "<group>"; };
+		ED46A3F6155DB6730022BA63 /* C4LayerAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4LayerAnimation.h; path = Headers/C4LayerAnimation.h; sourceTree = "<group>"; };
+		ED46A3F7155DB6730022BA63 /* C4Math.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4Math.h; path = Headers/C4Math.h; sourceTree = "<group>"; };
+		ED46A3F8155DB6730022BA63 /* C4Movie.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4Movie.h; path = Headers/C4Movie.h; sourceTree = "<group>"; };
+		ED46A3F9155DB6730022BA63 /* C4Notification.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4Notification.h; path = Headers/C4Notification.h; sourceTree = "<group>"; };
+		ED46A3FA155DB6730022BA63 /* C4Object.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4Object.h; path = Headers/C4Object.h; sourceTree = "<group>"; };
+		ED46A3FB155DB6730022BA63 /* C4PlayerLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4PlayerLayer.h; path = Headers/C4PlayerLayer.h; sourceTree = "<group>"; };
+		ED46A3FC155DB6730022BA63 /* C4Sample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4Sample.h; path = Headers/C4Sample.h; sourceTree = "<group>"; };
+		ED46A3FD155DB6730022BA63 /* C4Shape.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4Shape.h; path = Headers/C4Shape.h; sourceTree = "<group>"; };
+		ED46A3FE155DB6730022BA63 /* C4ShapeLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4ShapeLayer.h; path = Headers/C4ShapeLayer.h; sourceTree = "<group>"; };
+		ED46A3FF155DB6730022BA63 /* C4View.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4View.h; path = Headers/C4View.h; sourceTree = "<group>"; };
+		ED46A400155DB6730022BA63 /* C4Window.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4Window.h; path = Headers/C4Window.h; sourceTree = "<group>"; };
+		ED46A401155DB6730022BA63 /* UITouch+C4Touch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "UITouch+C4Touch.h"; path = "Headers/UITouch+C4Touch.h"; sourceTree = "<group>"; };
+		ED46A402155DB6730022BA63 /* libC4.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libC4.a; path = Library/libC4.a; sourceTree = "<group>"; };
+		ED46A40E155DB6740022BA63 /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iTunesArtwork.png; path = Logos/iTunesArtwork.png; sourceTree = "<group>"; };
+		ED46A411155DB6740022BA63 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/C4Canvas.xib; sourceTree = "<group>"; };
+		ED46A413155DB6740022BA63 /* C4LogoiPad-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "C4LogoiPad-01.png"; path = "Logos/C4LogoiPad-01.png"; sourceTree = "<group>"; };
+		ED46A415155DB6740022BA63 /* C4LogoiPad-01@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "C4LogoiPad-01@2x.png"; path = "Logos/C4LogoiPad-01@2x.png"; sourceTree = "<group>"; };
+		ED46A417155DB6740022BA63 /* C4LogoiPad-02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "C4LogoiPad-02.png"; path = "Logos/C4LogoiPad-02.png"; sourceTree = "<group>"; };
+		ED46A419155DB6740022BA63 /* C4LogoiPad-03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "C4LogoiPad-03.png"; path = "Logos/C4LogoiPad-03.png"; sourceTree = "<group>"; };
+		ED46A41B155DB6740022BA63 /* C4LogoiPad-04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "C4LogoiPad-04.png"; path = "Logos/C4LogoiPad-04.png"; sourceTree = "<group>"; };
+		ED46A41D155DB6740022BA63 /* C4LogoiPad-05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "C4LogoiPad-05.png"; path = "Logos/C4LogoiPad-05.png"; sourceTree = "<group>"; };
+		ED46A41F155DB6740022BA63 /* C4LogoiPad-06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "C4LogoiPad-06.png"; path = "Logos/C4LogoiPad-06.png"; sourceTree = "<group>"; };
+		ED46A421155DB6740022BA63 /* C4LogoiPad-07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "C4LogoiPad-07.png"; path = "Logos/C4LogoiPad-07.png"; sourceTree = "<group>"; };
+		ED46A423155DB6740022BA63 /* C4LogoiPad-08.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "C4LogoiPad-08.png"; path = "Logos/C4LogoiPad-08.png"; sourceTree = "<group>"; };
+		ED46A425155DB6740022BA63 /* C4LogoiPad-Landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "C4LogoiPad-Landscape.png"; path = "Logos/C4LogoiPad-Landscape.png"; sourceTree = "<group>"; };
+		ED46A427155DB6740022BA63 /* C4LogoiPad-Portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "C4LogoiPad-Portrait.png"; path = "Logos/C4LogoiPad-Portrait.png"; sourceTree = "<group>"; };
+		ED46A429155DB6740022BA63 /* C4LogoiPad-Landscape@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "C4LogoiPad-Landscape@2x.png"; path = "Logos/C4LogoiPad-Landscape@2x.png"; sourceTree = "<group>"; };
+		ED46A42B155DB6740022BA63 /* C4LogoiPad-Portrait@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "C4LogoiPad-Portrait@2x.png"; path = "Logos/C4LogoiPad-Portrait@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED46A3BD155DB6720022BA63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED46A3C5155DB6720022BA63 /* AVFoundation.framework in Frameworks */,
+				ED46A3C7155DB6720022BA63 /* CoreFoundation.framework in Frameworks */,
+				ED46A3C9155DB6720022BA63 /* CoreGraphics.framework in Frameworks */,
+				ED46A3CB155DB6720022BA63 /* CoreImage.framework in Frameworks */,
+				ED46A3CD155DB6720022BA63 /* CoreMedia.framework in Frameworks */,
+				ED46A3CF155DB6720022BA63 /* CoreText.framework in Frameworks */,
+				ED46A3D1155DB6720022BA63 /* Foundation.framework in Frameworks */,
+				ED46A3D3155DB6720022BA63 /* OpenGLES.framework in Frameworks */,
+				ED46A3D5155DB6720022BA63 /* QuartzCore.framework in Frameworks */,
+				ED46A3D7155DB6720022BA63 /* UIKit.framework in Frameworks */,
+				ED46A403155DB6730022BA63 /* libC4.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED46A3B5155DB6720022BA63 = {
+			isa = PBXGroup;
+			children = (
+				ED46A3D8155DB6720022BA63 /* randomShape */,
+				ED46A3C3155DB6720022BA63 /* Frameworks */,
+				ED46A3C1155DB6720022BA63 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED46A3C1155DB6720022BA63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED46A3C0155DB6720022BA63 /* randomShape.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED46A3C3155DB6720022BA63 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED46A3C4155DB6720022BA63 /* AVFoundation.framework */,
+				ED46A3C6155DB6720022BA63 /* CoreFoundation.framework */,
+				ED46A3C8155DB6720022BA63 /* CoreGraphics.framework */,
+				ED46A3CA155DB6720022BA63 /* CoreImage.framework */,
+				ED46A3CC155DB6720022BA63 /* CoreMedia.framework */,
+				ED46A3CE155DB6720022BA63 /* CoreText.framework */,
+				ED46A3D0155DB6720022BA63 /* Foundation.framework */,
+				ED46A3D2155DB6720022BA63 /* OpenGLES.framework */,
+				ED46A3D4155DB6720022BA63 /* QuartzCore.framework */,
+				ED46A3D6155DB6720022BA63 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED46A3D8155DB6720022BA63 /* randomShape */ = {
+			isa = PBXGroup;
+			children = (
+				ED46A3E5155DB6730022BA63 /* C4WorkSpace.m */,
+				ED46A410155DB6740022BA63 /* C4Canvas.xib */,
+				ED46A3E7155DB6730022BA63 /* Framework */,
+				ED46A404155DB6730022BA63 /* Media */,
+				ED46A40D155DB6740022BA63 /* Logos */,
+				ED46A3D9155DB6720022BA63 /* Supporting Files */,
+			);
+			path = randomShape;
+			sourceTree = "<group>";
+		};
+		ED46A3D9155DB6720022BA63 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED46A3DA155DB6720022BA63 /* randomShape-Info.plist */,
+				ED46A3DB155DB6720022BA63 /* InfoPlist.strings */,
+				ED46A3DE155DB6730022BA63 /* main.m */,
+				ED46A3E0155DB6730022BA63 /* randomShape-Prefix.pch */,
+				ED46A3E1155DB6730022BA63 /* C4WorkSpace.h */,
+				ED46A3E2155DB6730022BA63 /* C4AppDelegate.h */,
+				ED46A3E3155DB6730022BA63 /* C4AppDelegate.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ED46A3E7155DB6730022BA63 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				ED46A3E8155DB6730022BA63 /* C4CanvasController.h */,
+				ED46A3E9155DB6730022BA63 /* C4Control.h */,
+				ED46A3EA155DB6730022BA63 /* C4Defines.h */,
+				ED46A3EB155DB6730022BA63 /* C4EAGLES1Renderer.h */,
+				ED46A3EC155DB6730022BA63 /* C4EAGLESRenderer.h */,
+				ED46A3ED155DB6730022BA63 /* C4EAGLLayer.h */,
+				ED46A3EE155DB6730022BA63 /* C4Font.h */,
+				ED46A3EF155DB6730022BA63 /* C4Foundation.h */,
+				ED46A3F0155DB6730022BA63 /* C4Gesture.h */,
+				ED46A3F1155DB6730022BA63 /* C4GL.h */,
+				ED46A3F2155DB6730022BA63 /* C4GL1Renderer.h */,
+				ED46A3F3155DB6730022BA63 /* C4Image.h */,
+				ED46A3F4155DB6730022BA63 /* C4Label.h */,
+				ED46A3F5155DB6730022BA63 /* C4Layer.h */,
+				ED46A3F6155DB6730022BA63 /* C4LayerAnimation.h */,
+				ED46A3F7155DB6730022BA63 /* C4Math.h */,
+				ED46A3F8155DB6730022BA63 /* C4Movie.h */,
+				ED46A3F9155DB6730022BA63 /* C4Notification.h */,
+				ED46A3FA155DB6730022BA63 /* C4Object.h */,
+				ED46A3FB155DB6730022BA63 /* C4PlayerLayer.h */,
+				ED46A3FC155DB6730022BA63 /* C4Sample.h */,
+				ED46A3FD155DB6730022BA63 /* C4Shape.h */,
+				ED46A3FE155DB6730022BA63 /* C4ShapeLayer.h */,
+				ED46A3FF155DB6730022BA63 /* C4View.h */,
+				ED46A400155DB6730022BA63 /* C4Window.h */,
+				ED46A401155DB6730022BA63 /* UITouch+C4Touch.h */,
+				ED46A402155DB6730022BA63 /* libC4.a */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+		ED46A404155DB6730022BA63 /* Media */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Media;
+			sourceTree = "<group>";
+		};
+		ED46A40D155DB6740022BA63 /* Logos */ = {
+			isa = PBXGroup;
+			children = (
+				ED46A40E155DB6740022BA63 /* iTunesArtwork.png */,
+				ED46A413155DB6740022BA63 /* C4LogoiPad-01.png */,
+				ED46A415155DB6740022BA63 /* C4LogoiPad-01@2x.png */,
+				ED46A417155DB6740022BA63 /* C4LogoiPad-02.png */,
+				ED46A419155DB6740022BA63 /* C4LogoiPad-03.png */,
+				ED46A41B155DB6740022BA63 /* C4LogoiPad-04.png */,
+				ED46A41D155DB6740022BA63 /* C4LogoiPad-05.png */,
+				ED46A41F155DB6740022BA63 /* C4LogoiPad-06.png */,
+				ED46A421155DB6740022BA63 /* C4LogoiPad-07.png */,
+				ED46A423155DB6740022BA63 /* C4LogoiPad-08.png */,
+				ED46A425155DB6740022BA63 /* C4LogoiPad-Landscape.png */,
+				ED46A427155DB6740022BA63 /* C4LogoiPad-Portrait.png */,
+				ED46A429155DB6740022BA63 /* C4LogoiPad-Landscape@2x.png */,
+				ED46A42B155DB6740022BA63 /* C4LogoiPad-Portrait@2x.png */,
+			);
+			name = Logos;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED46A3BF155DB6720022BA63 /* randomShape */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED46A42F155DB6740022BA63 /* Build configuration list for PBXNativeTarget "randomShape" */;
+			buildPhases = (
+				ED46A3BC155DB6720022BA63 /* Sources */,
+				ED46A3BD155DB6720022BA63 /* Frameworks */,
+				ED46A3BE155DB6720022BA63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = randomShape;
+			productName = randomShape;
+			productReference = ED46A3C0155DB6720022BA63 /* randomShape.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED46A3B7155DB6720022BA63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = POSTFL;
+			};
+			buildConfigurationList = ED46A3BA155DB6720022BA63 /* Build configuration list for PBXProject "randomShape" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ED46A3B5155DB6720022BA63;
+			productRefGroup = ED46A3C1155DB6720022BA63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED46A3BF155DB6720022BA63 /* randomShape */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED46A3BE155DB6720022BA63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED46A3DD155DB6720022BA63 /* InfoPlist.strings in Resources */,
+				ED46A40F155DB6740022BA63 /* iTunesArtwork.png in Resources */,
+				ED46A412155DB6740022BA63 /* C4Canvas.xib in Resources */,
+				ED46A414155DB6740022BA63 /* C4LogoiPad-01.png in Resources */,
+				ED46A416155DB6740022BA63 /* C4LogoiPad-01@2x.png in Resources */,
+				ED46A418155DB6740022BA63 /* C4LogoiPad-02.png in Resources */,
+				ED46A41A155DB6740022BA63 /* C4LogoiPad-03.png in Resources */,
+				ED46A41C155DB6740022BA63 /* C4LogoiPad-04.png in Resources */,
+				ED46A41E155DB6740022BA63 /* C4LogoiPad-05.png in Resources */,
+				ED46A420155DB6740022BA63 /* C4LogoiPad-06.png in Resources */,
+				ED46A422155DB6740022BA63 /* C4LogoiPad-07.png in Resources */,
+				ED46A424155DB6740022BA63 /* C4LogoiPad-08.png in Resources */,
+				ED46A426155DB6740022BA63 /* C4LogoiPad-Landscape.png in Resources */,
+				ED46A428155DB6740022BA63 /* C4LogoiPad-Portrait.png in Resources */,
+				ED46A42A155DB6740022BA63 /* C4LogoiPad-Landscape@2x.png in Resources */,
+				ED46A42C155DB6740022BA63 /* C4LogoiPad-Portrait@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED46A3BC155DB6720022BA63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED46A3DF155DB6730022BA63 /* main.m in Sources */,
+				ED46A3E4155DB6730022BA63 /* C4AppDelegate.m in Sources */,
+				ED46A3E6155DB6730022BA63 /* C4WorkSpace.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ED46A3DB155DB6720022BA63 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED46A3DC155DB6720022BA63 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ED46A410155DB6740022BA63 /* C4Canvas.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED46A411155DB6740022BA63 /* en */,
+			);
+			name = C4Canvas.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED46A42D155DB6740022BA63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		ED46A42E155DB6740022BA63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED46A430155DB6740022BA63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "randomShape/randomShape-Prefix.pch";
+				INFOPLIST_FILE = "randomShape/randomShape-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/randomShape/Library\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ED46A431155DB6740022BA63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "randomShape/randomShape-Prefix.pch";
+				INFOPLIST_FILE = "randomShape/randomShape-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/randomShape/Library\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED46A3BA155DB6720022BA63 /* Build configuration list for PBXProject "randomShape" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED46A42D155DB6740022BA63 /* Debug */,
+				ED46A42E155DB6740022BA63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED46A42F155DB6740022BA63 /* Build configuration list for PBXNativeTarget "randomShape" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED46A430155DB6740022BA63 /* Debug */,
+				ED46A431155DB6740022BA63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED46A3B7155DB6720022BA63 /* Project object */;
+}
